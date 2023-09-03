@@ -1,0 +1,51 @@
+:root{
+    --main-p: #00ff7f;
+    --alt-p: #777;
+}
+
+::selection{
+    background-color: #00FF7F;
+    color: black;
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 0;  
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Small Screens */
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* Medium Screens */
+@media (min-width:992px){
+    .container{
+        width: 950px;
+    }
+}
+/* Small Screens */
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
